@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global data integration, iPaaS, and Reverse ETL sector represents an estimated market size of **$10B–$15B+** (with iPaaS pegged at ~$8B–$15B and Reverse ETL / Data Activation at ~$2.8B–$3.5B, both compounding at >20% CAGR through 2026). The market exhibits a **moderately fragmented, bifurcated structure**: the enterprise tier is heavily concentrated among incumbent giants (Salesforce/MuleSoft, Celonis, Workato) creating deep ecosystem moats, while the mid-market, SMB, and reverse ETL tiers remain competitive and fragmented with modern composable CDP and AI-orchestrated automation tools.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Hightouch](https://hightouch.com/)**
-
-  **Composable CDP and Reverse ETL** platform syncing warehouse data to 200+ destinations. **Pricing**: Quote-only; tiered by rows synced. **Free tier**: Limited free tier available. **Best for**: data teams wanting to activate warehouse data in CRM, marketing, and support tools without engineering tickets.
-
-
-
-- **[Census](https://www.getcensus.com/)**
-
-  **Reverse ETL and operational analytics** platform with visual mapping and scheduling. **Pricing**: Quote-only; tiered by records synced. **Free tier**: Trial available. **Best for**: teams wanting a mature reverse ETL with strong dbt integration and governance.
-
-
-
-- **[Fivetran](https://www.fivetran.com/)**
-
-  **Automated data integration** with 500+ connectors for ELT pipelines. **Pricing**: Consumption-based (monthly active rows). **Free tier**: Limited free tier. **Best for**: organizations wanting managed ingestion from SaaS apps to warehouses—**note**: primarily ELT (extract-load), not reverse ETL.
-
-
-
-- **[Workato](https://www.workato.com/)**
-
-  **Enterprise iPaaS** with recipe-based automation and bidirectional sync across 1,000+ apps. **Pricing**: Quote-only; enterprise contracts. **Free tier**: Community edition available. **Best for**: enterprises needing governed integration with IT oversight.
-
-
-
-- **[MuleSoft](https://www.mulesoft.com/)** (Salesforce)
-
-  **Enterprise integration platform** with API-led connectivity and Anypoint Platform. **Pricing**: Quote-only; enterprise subscriptions. **Free tier**: None. **Best for**: large enterprises with complex API ecosystems needing governed integration.
-
-
-
-- **[Celigo](https://www.celigo.com/)**
-
-  **Integration platform** with pre-built connectors for NetSuite, Salesforce, and eCommerce. **Pricing**: Quote-only. **Free tier**: None. **Best for**: NetSuite-centric organizations needing pre-built finance and commerce integrations.
-
-
-
-- **[Zapier](https://zapier.com/)**
-
-  **No-code automation** with 7,000+ app connectors and webhook triggers. **Pricing**: Free tier; paid by task volume. **Free tier**: Yes. **Best for**: non-technical teams wanting simple trigger-action syncs without engineering.
-
-
-
-- **[Make](https://www.make.com/)**
-
-  **Visual automation platform** with webhook support and 1,000+ connectors. **Pricing**: Free tier; paid by operations. **Free tier**: Yes. **Best for**: power users wanting visual flows with more control than Zapier.
-
-
-
-- **[Syncari](https://syncari.com/)**
-
-  **Revenue operations data sync** with bidirectional sync and conflict resolution across CRM, marketing, and finance. **Pricing**: Quote-only. **Free tier**: None. **Best for**: RevOps teams needing governed, bidirectional sync with data quality controls.
-
-
-
-- **[HubSpot Data Sync](https://www.hubspot.com/)**
-
-  **Native bidirectional sync** between HubSpot and Salesforce, NetSuite, or other systems. **Pricing**: Included with HubSpot Enterprise tiers. **Free tier**: Limited. **Best for**: HubSpot users wanting native sync with their existing CRM or ERP.
-
-
+| Platform | Company Size (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[HubSpot Data Sync](https://www.hubspot.com/)** | **~$21B–$36B Valuation** / ~$3.1B ARR | Starts at **$20/seat/month** (Data Hub Starter) | **Free forever plan**: Unlimited two-way sync on 100+ native apps capped at default field mappings only (up to 2 users; custom mappings require Starter). 14-day free trial on higher tiers. | Native bidirectional sync between HubSpot and Salesforce, NetSuite, and other systems. Best for HubSpot users needing CRM sync. |
+| **[Make](https://www.make.com/)** | **~$11B–$13B Valuation** (via parent Celonis; ~$52M–$100M ARR) | Starts at **$9/month** (Core plan, 10,000 credits/mo, billed annually) | **Free forever plan**: 1,000 credits/month, max 2 active scenarios, minimum 15-minute sync interval. | Visual automation platform with webhook support and 1,000+ connectors. Best for power users wanting visual flows with more control than Zapier. |
+| **[MuleSoft](https://www.mulesoft.com/)** (Salesforce) | **~$6.5B Acquired Valuation** (Salesforce Integration segment ~$5.8B ARR) | Starts at **$2,000/month** (MuleSoft Integration & Automation Starter) | **30-day free trial**: Full access to Anypoint Platform evaluation; no permanent free tier. | Enterprise integration platform with API-led connectivity and Anypoint Platform. Best for large enterprises with complex API ecosystems. |
+| **[Workato](https://www.workato.com/)** | **~$5.7B Valuation** / ~$150M ARR | Starts at **$75/month** (Workato Pro base) up to custom enterprise contracts | **Evaluation plan**: One-time grant of 50,000 non-refreshing Workato credits; enterprise proofs-of-concept available via sales. | Enterprise iPaaS with recipe-based automation and bidirectional sync across 1,000+ apps. Best for enterprises needing governed integration. |
+| **[Fivetran](https://www.fivetran.com/)** | **~$5.6B Valuation** / ~$325M ARR | Consumption-based starting at **~$500/month** (Standard plan per 1M MAR baseline) | **Free forever plan**: 500,000 Monthly Active Rows (MAR) for ELT, 3,500 MAR for Activations (Reverse ETL), 5,000 model runs/month. Plus 14-day free trial per new connection. | Automated data integration with 500+ connectors for ELT pipelines and Reverse ETL activations. Best for managed warehouse ingestion and syncs. |
+| **[Zapier](https://zapier.com/)** | **~$5.0B Valuation** / ~$310M–$400M ARR | Starts at **$19.99/month** (Professional plan, 750 tasks/mo, billed annually) | **Free forever plan**: 100 tasks/month, 2-step Zaps only (1 trigger, 1 action), 15-minute polling interval, standard apps only. 14-day Pro trial on signup. | No-code automation with 7,000+ app connectors and webhook triggers. Best for non-technical teams wanting trigger-action syncs. |
+| **[Hightouch](https://hightouch.com/)** | **~$2.75B Valuation** / ~$100M ARR | Starts at **$350/month** (Starter tier for reverse ETL syncs) | **Free forever plan**: Up to 2 active syncs/month, hourly sync frequency limit, unlimited destinations, and unlimited seats. | Composable CDP and Reverse ETL platform syncing warehouse data to 200+ destinations. Best for data teams activating warehouse data into CRMs. |
+| **[Census](https://www.getcensus.com/)** (Fivetran Activations) | **Acquired by Fivetran** (~$5.6B combined parent valuation) | Consumption-based starting at **~$350–$500/month** (via Fivetran Activations consumption) | **Free tier via Fivetran**: 3,500 activation Monthly Active Rows (MAR)/month on Free tier. 14-day free trial on new activation syncs. | Reverse ETL and operational analytics platform with visual mapping. Best for teams wanting mature reverse ETL with strong dbt integration. |
+| **[Celigo](https://www.celigo.com/)** | **~$100M+ ARR** / ~$80M Total Funding | Starts at **$600/month** (Standard tier, billed annually) | **30-day free trial** with full platform access; transitions to Free plan limited to 2 endpoints and 1 active flow. | Integration platform with pre-built connectors for NetSuite, Salesforce, and eCommerce. Best for NetSuite-centric finance & commerce workflows. |
+| **[Syncari](https://syncari.com/)** | **~$100M–$250M Est. Valuation** / ~$2M–$5M ARR | Starts at **$995/month** (Starter tier) | **30-day free trial** (Test Drive) with full schema studio & multi-directional sync access; no permanent free tier (base starter plan limits to 1 synapse and 100k records). | Revenue operations data sync with bidirectional sync and conflict resolution across CRM, marketing, and finance. Best for RevOps teams. |
 
 ## Open-Source GitHub Projects
 
