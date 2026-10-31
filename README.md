@@ -1,50 +1,59 @@
-# Awesome-Bidirectional-Data-Synchronization
+# Awesome Bidirectional Data Synchronization 🔄⚡
 
-# Awesome-Bidirectional-Data-Synchronization
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Bidirectional Data Synchronization Banner" width="100%">
+</p>
 
-**Top Bidirectional Data Synchronization (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Bidirectional-Data-Synchronization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Bidirectional-Data-Synchronization?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Bidirectional-Data-Synchronization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Bidirectional-Data-Synchronization?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Bidirectional-Data-Synchronization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+> **A definitive, community-curated collection of top Bidirectional Data Synchronization, Reverse ETL, iPaaS, Real-Time Change Data Capture (CDC), and Warehouse-to-App Activation tools.** 🌟 *Star the repo if you find it valuable!* 🌟
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+## 📌 Overview & SEO Summary 🚀
 
-*Focused on Reverse ETL, iPaaS, CRM Sync & Warehouse-to-App Activation*
+Keeping business applications and data warehouses in continuous, bidirectional harmony is foundational for modern data-driven architectures. Whether orchestrating **multi-directional CRM syncs** (Salesforce, HubSpot, Pipedrive), powering **operational analytics and Reverse ETL pipelines** from Snowflake, BigQuery, and Databricks into downstream SaaS tools, or deploying **self-hosted event-driven iPaaS integration engines**, this curated repository catalogs both industry-standard SaaS platforms and production-grade open-source solutions.
 
-**Last updated: October 2026**
+- **Primary Disciplines**: Bidirectional Data Sync, Reverse ETL, Operational Analytics, iPaaS (Integration Platform as a Service), Data Activation, Real-Time Change Data Capture (CDC), Master Data Management (MDM).
+- **Core Integrations**: PostgreSQL, MySQL, DuckDB, Snowflake, BigQuery, Databricks, Salesforce, HubSpot, NetSuite, Slack, Webhooks, REST APIs.
+- **Last updated**: October 2026 📅
 
+---
 
+## 📑 Table of Contents 🧭
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Bidirectional Data Synchronization**. These tools enable organizations to keep data consistent across CRMs, warehouses, and business applications—from fully managed reverse ETL platforms with visual mapping to self-hosted integration engines and CLI-driven sync tools that give teams complete control over their data pipelines and transformation logic.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Ranked by GitHub Stars](#-ranked-by-github-stars)
+- [🛠️ Frameworks for Building Custom Sync Engines](#️-frameworks-for-building-custom-sync-engines)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics 📈
 
-**Examples** include Hightouch, Census, Fivetran, Workato, MuleSoft, Celigo, Zapier, Make, Syncari, and HubSpot Data Sync (the category leaders in commercial space).
+The global data integration, iPaaS, and Reverse ETL sector represents an estimated market size of **$10B–$15B+** (with iPaaS valued at ~$8B–$15B and Reverse ETL / Data Activation at ~$2.8B–$3.5B, both compounding at >20% CAGR through 2026). The market exhibits a **moderately fragmented, bifurcated structure**:
+- **Enterprise Concentrated Core**: Dominated by incumbent giants (Salesforce / MuleSoft, Celonis, Workato) creating deep ecosystem moats with end-to-end API governance and automated orchestration.
+- **Dynamic & Fragmented Mid-Market / Activation Layer**: Driven by modern Composable CDPs, AI-assisted workflow engines, and code-first Reverse ETL CLI tools where innovation moves rapidly and multi-tool stacks thrive.
 
+---
 
+## ☁️ SaaS / Hosted Platforms 🌐
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted reverse ETL, CRM sync, and open integration infrastructure. **Critical note**: The open-source landscape is fragmented—**PyReverseETL** and **drt** are CLI-first reverse ETL tools, **CRMSYNC** handles HubSpot/Pipedrive bidirectional sync, **Cenit IO** is a full iPaaS, and **ETLX** offers SQL-first pipeline definition. No open-source project matches Hightouch's visual modeling or Fivetran's 500+ managed connectors.
+The following SaaS platforms provide fully managed infrastructure, pre-built enterprise connectors, visual schema mappers, and conflict resolution engines. The table below is sorted descending by **company scale (valuation / revenue)**.
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global data integration, iPaaS, and Reverse ETL sector represents an estimated market size of **$10B–$15B+** (with iPaaS pegged at ~$8B–$15B and Reverse ETL / Data Activation at ~$2.8B–$3.5B, both compounding at >20% CAGR through 2026). The market exhibits a **moderately fragmented, bifurcated structure**: the enterprise tier is heavily concentrated among incumbent giants (Salesforce/MuleSoft, Celonis, Workato) creating deep ecosystem moats, while the mid-market, SMB, and reverse ETL tiers remain competitive and fragmented with modern composable CDP and AI-orchestrated automation tools.
-
-## SaaS/Hosted Platforms
-
-| Platform | Company Size (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier Limits | Description & Best For |
+| Platform | Company Size (Valuation / Revenue) 🏢 | Pricing (Starting Tier) 💳 | Free Tier & Trial Limits 🎁 | Description & Best For 🎯 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[HubSpot Data Sync](https://www.hubspot.com/)** | **~$21B–$36B Valuation** / ~$3.1B ARR | Starts at **$20/seat/month** (Data Hub Starter) | **Free forever plan**: Unlimited two-way sync on 100+ native apps capped at default field mappings only (up to 2 users; custom mappings require Starter). 14-day free trial on higher tiers. | Native bidirectional sync between HubSpot and Salesforce, NetSuite, and other systems. Best for HubSpot users needing CRM sync. |
 | **[Make](https://www.make.com/)** | **~$11B–$13B Valuation** (via parent Celonis; ~$52M–$100M ARR) | Starts at **$9/month** (Core plan, 10,000 credits/mo, billed annually) | **Free forever plan**: 1,000 credits/month, max 2 active scenarios, minimum 15-minute sync interval. | Visual automation platform with webhook support and 1,000+ connectors. Best for power users wanting visual flows with more control than Zapier. |
@@ -57,108 +66,149 @@ The global data integration, iPaaS, and Reverse ETL sector represents an estimat
 | **[Celigo](https://www.celigo.com/)** | **~$100M+ ARR** / ~$80M Total Funding | Starts at **$600/month** (Standard tier, billed annually) | **30-day free trial** with full platform access; transitions to Free plan limited to 2 endpoints and 1 active flow. | Integration platform with pre-built connectors for NetSuite, Salesforce, and eCommerce. Best for NetSuite-centric finance & commerce workflows. |
 | **[Syncari](https://syncari.com/)** | **~$100M–$250M Est. Valuation** / ~$2M–$5M ARR | Starts at **$995/month** (Starter tier) | **30-day free trial** (Test Drive) with full schema studio & multi-directional sync access; no permanent free tier (base starter plan limits to 1 synapse and 100k records). | Revenue operations data sync with bidirectional sync and conflict resolution across CRM, marketing, and finance. Best for RevOps teams. |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source GitHub Projects 🔓
 
+Self-hosted, transparent, and developer-friendly projects for Reverse ETL, continuous bidirectional synchronization, database-to-database replication, and workflow automation.
 
-- **[PyReverseETL](https://pypi.org/project/PyReverseETL/)**
+### ⭐ Ranked by GitHub Stars
 
-  **Reverse ETL engine with Rust core and Python API** (license per PyPI) — **the most technically ambitious open-source reverse ETL tool** found in this research, with a compiled Rust engine and honest status reporting . **Features**: **PostgreSQL/MySQL/S3 sources** verified against real services; **webhook destination** verified end-to-end; **CRM/marketing adapters** (mock-verified); **PII masking compliance rules** before data leaves the process; **lineage tracking** across runs; CLI commands (`create-workflow`, `create-activation`, `execute`) and Python API (`run_sync`). Explicitly documents what is tested, untested, or broken in `ROADMAP_HONEST.md` . **Tech stack**: Rust (core, via PyO3), Python (API/CLI). **Deploy**: `pip install pyreverseetl`. **Trade-off**: **Beta (v3.1.4)**—CRM/marketing adapters are mock-verified only, not live-tested. Several modules remain unwired. GCS/Azure, Kafka, CDC streaming are not implemented. **Best for**: data engineers wanting a real, honest reverse ETL engine with PII masking and lineage—willing to accept beta status and verify CRM connectors before production use.
+Repositories are listed in descending order of community adoption (star counts). Each project features a real-time star badge linking directly to its stargazers page.
 
+1. **[Syncthing](https://github.com/syncthing/syncthing)** [![GitHub stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers) 📦
+   - **Overview**: Continuous, decentralized, and encrypted bidirectional file and state synchronization engine across multiple devices and storage backends.
+   - **License**: MPL-2.0 | **Stack**: Go
+   - **Best for**: Teams requiring distributed, peer-to-peer real-time file and state synchronization with zero cloud dependence.
 
+2. **[Activepieces](https://github.com/activepieces/activepieces)** [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) ⚡
+   - **Overview**: Open-source, no-code/low-code workflow automation platform and Zapier alternative with 500+ connectors, AI copilot, and bidirectional webhooks.
+   - **License**: MIT | **Stack**: TypeScript, Node.js
+   - **Best for**: Self-hosted workflow automation, business logic execution, and app-to-app two-way synchronization.
 
-- **[drt (data reverse tool)](https://pypi.org/project/drt-core/)**
+3. **[Airbyte](https://github.com/airbytehq/airbyte)** [![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers) 🔄
+   - **Overview**: Industry-leading data movement platform with 300+ pre-built connectors. Supports high-throughput replication, change data capture (CDC), and bidirectional data flows when paired with reverse ETL destinations.
+   - **License**: Elastic License 2.0 / MIT | **Stack**: Java, Python, Docker
+   - **Best for**: Scalable data warehouse ingestion, multi-cloud replication, and large-scale data lake synchronization.
 
-  **CLI-first reverse ETL for the code-first data stack** (license per PyPI) — **the most developer-friendly open-source Census/Hightouch alternative**, designed as the reverse leg of dbt/dlt . **Features**: **YAML sync definitions**—Git-native, CI/CD-friendly; **sources**: BigQuery, DuckDB, PostgreSQL (v0.1); **destinations**: REST API, Slack webhook, GitHub Actions, **HubSpot (Contacts/Deals/Companies)** verified in v0.1; **dry-run** preview before writing; MCP server planned (v0.3); Dagster/Airflow integration planned . **Tech stack**: Python (CLI). **Deploy**: `pip install drt-core[bigquery]`; `drt init`, `drt run`. **Trade-off**: **v0.1 maturity**—Snowflake, Redshift, MySQL sources are planned, not shipped. Salesforce, Notion, Google Sheets destinations are planned. Incremental sync and retry logic are v0.2 roadmap items. **Best for**: dbt-centric data teams wanting a Git-native reverse ETL CLI with HubSpot sync already working—without per-row SaaS pricing.
+4. **[CloudQuery](https://github.com/cloudquery/cloudquery)** [![GitHub stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers) 🛡️
+   - **Overview**: Open-source high-performance data integration framework for syncing cloud infrastructure, SaaS APIs, and databases into structured SQL databases and destinations.
+   - **License**: MPL-2.0 | **Stack**: Go
+   - **Best for**: Cloud security posture management (CSPM), infrastructure asset inventory sync, and devops pipeline data movement.
 
+5. **[dlt (data load tool)](https://github.com/dlt-hub/dlt)** [![GitHub stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social&color=white)](https://github.com/dlt-hub/dlt/stargazers) 🐍
+   - **Overview**: Lightweight Python library for loading unstructured and semi-structured data from arbitrary APIs into data warehouses and vector stores with automatic schema inference and evolution.
+   - **License**: Apache-2.0 | **Stack**: Python
+   - **Best for**: Python engineers building modular, code-first data sync pipelines without heavy orchestration infrastructure.
 
+6. **[RudderStack (rudder-server)](https://github.com/rudderlabs/rudder-server)** [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) 🧭
+   - **Overview**: Enterprise-ready customer data platform (CDP) and reverse ETL warehouse activation engine. Captures event streams and activates warehouse models directly to 150+ operational SaaS destinations.
+   - **License**: SSPL | **Stack**: Go, Node.js
+   - **Best for**: Privacy-conscious organizations deploying self-hosted customer event tracking and warehouse-to-app activation.
 
-- **[CRMSYNC](https://github.com/cognis-digital/crmsync)**
+7. **[Meltano](https://github.com/meltano/meltano)** [![GitHub stars](https://img.shields.io/github/stars/meltano/meltano?style=social&color=white)](https://github.com/meltano/meltano/stargazers) ⚙️
+   - **Overview**: Declarative, code-first DataOps platform built on the Singer standard. Enables Git-versioned end-to-end data pipelines combining extraction, dbt transforms, and reverse activation.
+   - **License**: MIT | **Stack**: Python
+   - **Best for**: Data platform engineers practicing GitOps who want reproducible, CLI-managed pipelines.
 
-  **Bidirectional, idempotent CRM sync between SQLite and HubSpot/Pipedrive/Salesforce** (license per repo) — **the most focused open-source bidirectional sync tool** for CRM data . **Features**: **`diff` command** shows drift between a versioned CRM export (CSV/TSV/JSON) and local SQLite, exits 1 if drift found—**CI-gateable**; **`apply` command** syncs DB to match export idempotently; **MCP-native**—agents can drive it; single-purpose, scriptable, self-hostable. No $20k iPaaS contract required . **Tech stack**: Python (pip install). **Deploy**: `pip install cognis-crmsync`; CLI. **Trade-off**: **SQLite source-of-truth model**—it makes your CRM a replica of a local file, not a real-time API-to-API sync. The "bidirectional" aspect is achieved through diff/apply cycles, not continuous streaming. CRM adapters are mock-verified (per PyReverseETL-style honesty). **Best for**: teams wanting CI-enforced CRM consistency and drift detection without an iPaaS—especially those with existing versioned CRM exports or agent-driven workflows.
+8. **[SymmetricDS](https://github.com/jumpmindinc/symmetric-ds)** [![GitHub stars](https://img.shields.io/github/stars/jumpmindinc/symmetric-ds?style=social&color=white)](https://github.com/jumpmindinc/symmetric-ds/stargazers) 🗄️
+   - **Overview**: Enterprise-grade open-source database synchronization and replication software supporting asynchronous, bidirectional, trigger-based change data capture across disparate relational databases (PostgreSQL, Oracle, SQL Server, MySQL, SQLite).
+   - **License**: GPL-3.0 | **Stack**: Java
+   - **Best for**: True multi-master bidirectional database replication, retail store-to-central synchronization, and branch-office offline sync with conflict resolution.
 
+9. **[Grouparoo](https://github.com/grouparoo/grouparoo)** [![GitHub stars](https://img.shields.io/github/stars/grouparoo/grouparoo?style=social&color=white)](https://github.com/grouparoo/grouparoo/stargazers) 🦘
+   - **Overview**: Pioneering open-source Reverse ETL framework (acquired by Airbyte). Syncs customer profiles from data warehouses (Snowflake, BigQuery, Postgres) to business tools (Mailchimp, Salesforce, Zendesk) with visual rule authoring.
+   - **License**: Apache-2.0 | **Stack**: TypeScript, Node.js
+   - **Best for**: Reference architecture and self-hosted warehouse-to-app customer data activation.
 
+10. **[Cenit IO](https://github.com/cenit-io/cenit)** [![GitHub stars](https://img.shields.io/github/stars/cenit-io/cenit?style=social&color=white)](https://github.com/cenit-io/cenit/stargazers) 🌐
+    - **Overview**: 100% open-source integration platform as a service (iPaaS) supporting multitenancy, API routing, protocol adaptation, and bidirectional business data flows.
+    - **License**: MIT | **Stack**: Ruby
+    - **Best for**: Teams seeking a self-hosted iPaaS backbone for custom internal enterprise app integrations.
 
-- **[Cenit IO](https://github.com/cenit-io/cenit)**
+11. **[ETLX](https://github.com/realdatadriven/etlx)** [![GitHub stars](https://img.shields.io/github/stars/realdatadriven/etlx?style=social&color=white)](https://github.com/realdatadriven/etlx/stargazers) 📝
+    - **Overview**: SQL-first pipeline runtime where pipelines are defined in structured Markdown + YAML + SQL. Natively handles Reverse ETL, data quality checks, and sync operations powered by DuckDB, PostgreSQL, and SQLite.
+    - **License**: Apache-2.0 | **Stack**: Go
+    - **Best for**: Data engineers who value self-documenting, audit-proof sync specifications stored as plain text.
 
-  **100% open-source integration platform (iPaaS)** (Ruby, ~502 stars) — **the most complete open-source iPaaS** for building bidirectional data flows . **Features**: Automates repetitive manual operations; connects tools into repeatable flows; supports multitenant and on-premises deployment; backed-less data-flow architecture . **Tech stack**: Ruby. **Deploy**: Self-hosted. **Trade-off**: **Medium production readiness**—suitable for prototypes or internal workflows, but requires dependency and maintenance checks before production. Integration path is not obvious from metadata; validate setup cost before committing . **Best for**: teams wanting a self-hosted iPaaS foundation for internal workflows—with awareness that it requires proof-of-concept validation before production.
+12. **[drt (data reverse tool)](https://github.com/drt-hub/drt)** [![GitHub stars](https://img.shields.io/github/stars/drt-hub/drt?style=social&color=white)](https://github.com/drt-hub/drt/stargazers) 🎯
+    - **Overview**: CLI-first, code-native Reverse ETL tool acting as the activation counterpart to dbt and dlt. Defines syncs in declarative YAML with `drt plan` dry-runs and HubSpot / REST API targets.
+    - **License**: MIT | **Stack**: Python
+    - **Best for**: dbt-centric data teams wanting Git-versioned reverse ETL without per-row SaaS charges.
 
+13. **[FlowForge](https://github.com/DeveloperSarim/FlowForge)** [![GitHub stars](https://img.shields.io/github/stars/DeveloperSarim/FlowForge)](https://github.com/DeveloperSarim/FlowForge/stargazers) 🔧
+    - **Overview**: Lightweight visual automation platform built for budget and shared hosting environments with 1,600+ app connectors and single-cron job orchestration.
+    - **License**: AGPL-3.0 | **Stack**: PHP, MySQL
+    - **Best for**: SMBs and agencies running on cPanel/VPS looking for self-hosted Zapier-style automation without Node.js maintenance.
 
+14. **[CRMSYNC](https://github.com/cognis-digital/crmsync)** [![GitHub stars](https://img.shields.io/github/stars/cognis-digital/crmsync)](https://github.com/cognis-digital/crmsync/stargazers) 🔄
+    - **Overview**: Idempotent bidirectional CRM synchronization CLI between local SQLite files and HubSpot, Pipedrive, or Salesforce. Uses `diff` and `apply` commands to enforce schema consistency inside CI/CD gates.
+    - **License**: MIT | **Stack**: Python
+    - **Best for**: CI/CD-enforced CRM consistency and drift detection without expensive iPaaS contracts.
 
-- **[ETLX](https://pkg.go.dev/github.com/realdatadriven/etlx)**
-
-  **SQL-first data workflow engine with self-documenting pipelines** (Apache 2.0) — **the most philosophically rigorous open-source pipeline specification** . **Features**: Pipelines defined in **structured Markdown + YAML + SQL**—the pipeline **is** the documentation and governance artifact; executes ETL/ELT/**Reverse ETL**, data quality, report generation, and automation; runs on **DuckDB, PostgreSQL, SQLite, MySQL, SQL Server, ODBC**; available as CLI and embeddable Go library . **Tech stack**: Go (DuckDB-powered, not locked to it). **Deploy**: `etlx --config pipeline.md`. **Trade-off**: **Specification and runtime, not a turnkey connector library**—you write the SQL and YAML; it executes. No pre-built CRM adapters. **Best for**: data engineers wanting explicit, inspectable, versionable data workflows where the pipeline file itself is the source of truth.
-
-
-
-- **[FlowForge](https://github.com/DeveloperSarim/FlowForge)**
-
-  **Self-hosted n8n/Zapier alternative for PHP shared hosting** (AGPL-3.0) — **the most accessible open-source automation platform for budget hosting** . **Features**: 1,690 app integrations; AI Builder for custom apps from API docs; automatic retries; AI voice agents; MCP support; runs on cPanel/Hostinger with **one cron job**; no Node.js server required . **Tech stack**: PHP, MySQL. **Deploy**: Shared hosting (cPanel/hPanel) or VPS. **Trade-off**: **Newer project with limited community validation** compared to n8n. PHP-based; not for teams needing Node.js ecosystem. **Best for**: small businesses on shared hosting wanting visual automation without managing a Node.js stack.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Dango** — Open-source data platform for small teams (Apache 2.0). Ingestion via dlt, DuckDB warehouse, dbt transforms, Metabase dashboards. **Note**: **Explicitly no reverse ETL** (known limitation)—ingestion and transformation only . **Best for**: small teams wanting a local-first data stack without reverse ETL needs.
-
-- **Activepieces** — Open-source Zapier alternative (MIT). 500+ integrations, visual builder, self-hosted. **Note**: **Automation platform, not reverse ETL**—connects apps but does not sync warehouse data to destinations . **Best for**: teams wanting a self-hosted automation platform with permissive licensing.
-
-- **CloudQuery** — Open-source data movement tool (Go). Syncs from any source to any destination; strong for cloud infrastructure data. **Note**: **Infrastructure/security data focus**, not CRM reverse ETL . **Best for**: CSPM and cloud asset inventory pipelines.
-
-
-
-**Frameworks for building custom systems**: Combine **PyReverseETL** for real reverse ETL with PII masking and lineage, **drt** for Git-native CLI sync to HubSpot and REST APIs, **CRMSYNC** for CI-gated CRM consistency, and **Cenit IO** or **FlowForge** for broader iPaaS workflows—creating a bidirectional sync stack. **None of these match Hightouch's visual modeling or Fivetran's managed connector breadth**; those require commercial platforms or significant connector development.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Data synchronization platforms handling business data and credentials must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for connected systems.
-
-- **The "reverse ETL" vs. "iPaaS" vs. "CRM sync" vs. "pipeline specification" distinction is critical.** **Hightouch and Census** are **reverse ETL**—they sync warehouse data to business apps. **Fivetran** is **ELT**—it ingests data into warehouses, not out. **Workato, MuleSoft, Celigo, Zapier, Make, and Syncari** are **iPaaS/automation**—they connect apps bidirectionally. **PyReverseETL and drt** are **open-source reverse ETL**. **CRMSYNC** is **CRM-specific bidirectional sync**. **Cenit IO and FlowForge** are **open-source iPaaS**. **ETLX** is a **pipeline specification**. **Choose based on whether you need warehouse-to-app sync, app-to-app integration, or pipeline definition.**
-
-- **PyReverseETL is the most honest open-source reverse ETL tool**—it documents exactly what is tested, mock-verified, or broken in `ROADMAP_HONEST.md` . **The trade-off**: beta status; CRM adapters are not live-verified. **For teams wanting real reverse ETL with PII masking and lineage, it is the strongest open-source foundation.**
-
-- **drt is the most developer-friendly reverse ETL CLI**, designed as the reverse leg of dbt/dlt . **The trade-off**: v0.1—only BigQuery, DuckDB, and PostgreSQL sources work; HubSpot is the only CRM destination. **It is the right tool for dbt teams wanting Git-native sync without SaaS pricing, but expectations should match its early stage.**
-
-- **CRMSYNC's approach is unique**—it makes the CRM a replica of a local SQLite file via diff/apply cycles, gateable in CI . **The trade-off**: it is not real-time API-to-API sync; it is CI-enforced consistency.
-
-- **Cenit IO has medium production readiness**—suitable for prototypes or internal workflows, not mission-critical production without validation . **FlowForge is newer but more actively targeted at budget hosting** with 1,690 integrations .
-
-- **Pricing opacity varies.** Hightouch, Census, Fivetran, Workato, MuleSoft, Celigo, and Syncari require sales contact or usage-based estimation. Zapier, Make, and Activepieces have free tiers. **Validate with direct vendor conversations against your sync volume and destination count.**
-
-- Self-hosted open-source solutions require proper setup, API credentials for connected systems, and ongoing maintenance. **Sync pipelines handle business-critical data**—ensure your deployment meets your organization's security standards and includes proper error handling before production use.
-
-
+15. **[PyReverseETL](https://github.com/Mullassery/PyReverseETL)** [![GitHub stars](https://img.shields.io/github/stars/Mullassery/PyReverseETL)](https://github.com/Mullassery/PyReverseETL/stargazers) 🦀
+    - **Overview**: Reverse ETL runtime engine pairing a high-throughput compiled Rust core with a developer-friendly Python API. Includes built-in PII masking, lineage tracking, and mock-verified CRM adapters.
+    - **License**: MIT | **Stack**: Rust (PyO3), Python
+    - **Best for**: Data engineers needing compliant warehouse-to-CRM activations with built-in PII data governance.
 
 ---
 
+## 🛠️ Frameworks for Building Custom Sync Engines 🏗️
 
+When commercial SaaS or off-the-shelf platforms do not satisfy specific compliance, low-latency, or air-gapped requirements, architects frequently combine specialized open-source tools:
+- **Core Reverse ETL & Governance**: Pair **PyReverseETL** or **drt** with dbt/dlt for Git-versioned activations.
+- **Relational Database Replication**: Deploy **SymmetricDS** for robust, trigger-based multi-master replication with built-in conflict resolution.
+- **Event-Driven App Integration**: Connect services using **Activepieces** or **Cenit IO** to handle bidirectional webhook triggers and payload transformations.
+- **Drift Detection & CI Gates**: Use **CRMSYNC** to verify schema consistency across CRM environments during automated CI runs.
 
-**Made for data engineers, RevOps teams, and organizations building transparent bidirectional data synchronization solutions.**
+---
 
-Let's make Bidirectional Data Synchronization more open, data-driven, and sync-reliable.
+## 🤝 How to Contribute 💡
+
+We welcome contributions from the data engineering and integration community! 
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-sync-tool`).
+3. 📝 **Add/edit entries** in `README.md` following the established format:
+   - Name and official link
+   - Real-time GitHub star badge (for open-source tools) linking to the stargazers page
+   - Concise 1–2 sentence description, license, stack, and ideal use case
+   - Exact pricing and free tier limits (for SaaS tools)
+4. 🚀 **Submit a Pull Request** with a brief summary of the project added.
+
+---
+
+## 💖 Support & Sponsorship ☕
+
+If this curated guide saves your team engineering hours, streamlines your integration stack, or helps you find the right data activation tool, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with fellow data engineers, architects, and RevOps professionals.
+- ☕ **Sponsor or buy a coffee**: Support ongoing curation and maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Thank you for your support! ❤️
+
+---
+
+## 📈 Star History 📊
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Bidirectional-Data-Synchronization&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Bidirectional-Data-Synchronization&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer 📋
+
+- This is a **community-curated** catalog — not exhaustive and not an official commercial endorsement.
+- **Data Protection & Compliance**: Synchronization platforms handling sensitive credentials, customer PII, and financial records must comply with international privacy standards (GDPR, CCPA, SOC 2, HIPAA). Always ensure end-to-end encryption in transit and at rest.
+- **Architecture Distinctions**:
+  - **Reverse ETL** (*Hightouch, Census, PyReverseETL, drt, RudderStack, Grouparoo*): Activates data from centralized warehouses out into operational tools.
+  - **Ingestion / ELT** (*Fivetran, Airbyte, dlt*): Pulls external data into data warehouses.
+  - **iPaaS / Automation** (*Workato, MuleSoft, Celigo, Zapier, Make, Activepieces, Cenit IO*): Connects disparate APIs and orchestrates event-driven workflows.
+  - **Multi-Master DB Sync** (*SymmetricDS*): Manages real-time bidirectional replication across disparate relational database nodes with conflict handling.
+  - **CI Drift Gating** (*CRMSYNC*): Validates versioned exports against target CRMs to catch data drift.
+- **Self-Hosted Responsibility**: Self-hosted solutions require robust monitoring, credential rotation, and disaster recovery planning. Test thoroughly in sandbox environments before syncing production data.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for data engineers, RevOps teams, and modern cloud architects worldwide.</b><br>
+  <i>Let's make Bidirectional Data Synchronization reliable, transparent, and open.</i>
+</p>
