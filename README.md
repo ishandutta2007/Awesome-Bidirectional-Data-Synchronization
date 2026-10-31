@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Bidirectional-Data-Synchronization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Bidirectional-Data-Synchronization?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Bidirectional-Data-Synchronization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Bidirectional-Data-Synchronization?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Bidirectional-Data-Synchronization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Bidirectional-Data-Synchronization?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Bidirectional-Data-Synchronization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -32,7 +32,7 @@ Keeping business applications and data warehouses in continuous, bidirectional h
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [⭐ Ranked by GitHub Stars](#-ranked-by-github-stars)
+  - [⭐ Ranked by GitHub_Stars](#-ranked-by-github-stars)
 - [🛠️ Frameworks for Building Custom Sync Engines](#️-frameworks-for-building-custom-sync-engines)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💖 Support & Sponsorship](#-support--sponsorship)
@@ -72,81 +72,81 @@ The following SaaS platforms provide fully managed infrastructure, pre-built ent
 
 Self-hosted, transparent, and developer-friendly projects for Reverse ETL, continuous bidirectional synchronization, database-to-database replication, and workflow automation.
 
-### ⭐ Ranked by GitHub Stars
+### ⭐ Ranked by GitHub_Stars
 
-Repositories are listed in descending order of community adoption (star counts). Each project features a real-time star badge linking directly to its stargazers page.
+Repositories are listed in descending order of community adoption (Stars_Counts). Each project features a real-time Stars_Badge linking directly to its stargazers page.
 
-1. **[Syncthing](https://github.com/syncthing/syncthing)** [![GitHub stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers) 📦
+1. **[Syncthing](https://github.com/syncthing/syncthing)** [![GitHub_Stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers) 📦
    - **Overview**: Continuous, decentralized, and encrypted bidirectional file and state synchronization engine across multiple devices and storage backends.
    - **License**: MPL-2.0 | **Stack**: Go
    - **Best for**: Teams requiring distributed, peer-to-peer real-time file and state synchronization with zero cloud dependence.
 
-2. **[Activepieces](https://github.com/activepieces/activepieces)** [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) ⚡
+2. **[Activepieces](https://github.com/activepieces/activepieces)** [![GitHub_Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) ⚡
    - **Overview**: Open-source, no-code/low-code workflow automation platform and Zapier alternative with 500+ connectors, AI copilot, and bidirectional webhooks.
    - **License**: MIT | **Stack**: TypeScript, Node.js
    - **Best for**: Self-hosted workflow automation, business logic execution, and app-to-app two-way synchronization.
 
-3. **[Airbyte](https://github.com/airbytehq/airbyte)** [![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers) 🔄
+3. **[Airbyte](https://github.com/airbytehq/airbyte)** [![GitHub_Stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers) 🔄
    - **Overview**: Industry-leading data movement platform with 300+ pre-built connectors. Supports high-throughput replication, change data capture (CDC), and bidirectional data flows when paired with reverse ETL destinations.
    - **License**: Elastic License 2.0 / MIT | **Stack**: Java, Python, Docker
    - **Best for**: Scalable data warehouse ingestion, multi-cloud replication, and large-scale data lake synchronization.
 
-4. **[CloudQuery](https://github.com/cloudquery/cloudquery)** [![GitHub stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers) 🛡️
+4. **[CloudQuery](https://github.com/cloudquery/cloudquery)** [![GitHub_Stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers) 🛡️
    - **Overview**: Open-source high-performance data integration framework for syncing cloud infrastructure, SaaS APIs, and databases into structured SQL databases and destinations.
    - **License**: MPL-2.0 | **Stack**: Go
    - **Best for**: Cloud security posture management (CSPM), infrastructure asset inventory sync, and devops pipeline data movement.
 
-5. **[dlt (data load tool)](https://github.com/dlt-hub/dlt)** [![GitHub stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social&color=white)](https://github.com/dlt-hub/dlt/stargazers) 🐍
+5. **[dlt (data load tool)](https://github.com/dlt-hub/dlt)** [![GitHub_Stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social&color=white)](https://github.com/dlt-hub/dlt/stargazers) 🐍
    - **Overview**: Lightweight Python library for loading unstructured and semi-structured data from arbitrary APIs into data warehouses and vector stores with automatic schema inference and evolution.
    - **License**: Apache-2.0 | **Stack**: Python
    - **Best for**: Python engineers building modular, code-first data sync pipelines without heavy orchestration infrastructure.
 
-6. **[RudderStack (rudder-server)](https://github.com/rudderlabs/rudder-server)** [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) 🧭
+6. **[RudderStack (rudder-server)](https://github.com/rudderlabs/rudder-server)** [![GitHub_Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers) 🧭
    - **Overview**: Enterprise-ready customer data platform (CDP) and reverse ETL warehouse activation engine. Captures event streams and activates warehouse models directly to 150+ operational SaaS destinations.
    - **License**: SSPL | **Stack**: Go, Node.js
    - **Best for**: Privacy-conscious organizations deploying self-hosted customer event tracking and warehouse-to-app activation.
 
-7. **[Meltano](https://github.com/meltano/meltano)** [![GitHub stars](https://img.shields.io/github/stars/meltano/meltano?style=social&color=white)](https://github.com/meltano/meltano/stargazers) ⚙️
+7. **[Meltano](https://github.com/meltano/meltano)** [![GitHub_Stars](https://img.shields.io/github/stars/meltano/meltano?style=social&color=white)](https://github.com/meltano/meltano/stargazers) ⚙️
    - **Overview**: Declarative, code-first DataOps platform built on the Singer standard. Enables Git-versioned end-to-end data pipelines combining extraction, dbt transforms, and reverse activation.
    - **License**: MIT | **Stack**: Python
    - **Best for**: Data platform engineers practicing GitOps who want reproducible, CLI-managed pipelines.
 
-8. **[SymmetricDS](https://github.com/jumpmindinc/symmetric-ds)** [![GitHub stars](https://img.shields.io/github/stars/jumpmindinc/symmetric-ds?style=social&color=white)](https://github.com/jumpmindinc/symmetric-ds/stargazers) 🗄️
+8. **[SymmetricDS](https://github.com/jumpmindinc/symmetric-ds)** [![GitHub_Stars](https://img.shields.io/github/stars/jumpmindinc/symmetric-ds?style=social&color=white)](https://github.com/jumpmindinc/symmetric-ds/stargazers) 🗄️
    - **Overview**: Enterprise-grade open-source database synchronization and replication software supporting asynchronous, bidirectional, trigger-based change data capture across disparate relational databases (PostgreSQL, Oracle, SQL Server, MySQL, SQLite).
    - **License**: GPL-3.0 | **Stack**: Java
    - **Best for**: True multi-master bidirectional database replication, retail store-to-central synchronization, and branch-office offline sync with conflict resolution.
 
-9. **[Grouparoo](https://github.com/grouparoo/grouparoo)** [![GitHub stars](https://img.shields.io/github/stars/grouparoo/grouparoo?style=social&color=white)](https://github.com/grouparoo/grouparoo/stargazers) 🦘
+9. **[Grouparoo](https://github.com/grouparoo/grouparoo)** [![GitHub_Stars](https://img.shields.io/github/stars/grouparoo/grouparoo?style=social&color=white)](https://github.com/grouparoo/grouparoo/stargazers) 🦘
    - **Overview**: Pioneering open-source Reverse ETL framework (acquired by Airbyte). Syncs customer profiles from data warehouses (Snowflake, BigQuery, Postgres) to business tools (Mailchimp, Salesforce, Zendesk) with visual rule authoring.
    - **License**: Apache-2.0 | **Stack**: TypeScript, Node.js
    - **Best for**: Reference architecture and self-hosted warehouse-to-app customer data activation.
 
-10. **[Cenit IO](https://github.com/cenit-io/cenit)** [![GitHub stars](https://img.shields.io/github/stars/cenit-io/cenit?style=social&color=white)](https://github.com/cenit-io/cenit/stargazers) 🌐
+10. **[Cenit IO](https://github.com/cenit-io/cenit)** [![GitHub_Stars](https://img.shields.io/github/stars/cenit-io/cenit?style=social&color=white)](https://github.com/cenit-io/cenit/stargazers) 🌐
     - **Overview**: 100% open-source integration platform as a service (iPaaS) supporting multitenancy, API routing, protocol adaptation, and bidirectional business data flows.
     - **License**: MIT | **Stack**: Ruby
     - **Best for**: Teams seeking a self-hosted iPaaS backbone for custom internal enterprise app integrations.
 
-11. **[ETLX](https://github.com/realdatadriven/etlx)** [![GitHub stars](https://img.shields.io/github/stars/realdatadriven/etlx?style=social&color=white)](https://github.com/realdatadriven/etlx/stargazers) 📝
+11. **[ETLX](https://github.com/realdatadriven/etlx)** [![GitHub_Stars](https://img.shields.io/github/stars/realdatadriven/etlx?style=social&color=white)](https://github.com/realdatadriven/etlx/stargazers) 📝
     - **Overview**: SQL-first pipeline runtime where pipelines are defined in structured Markdown + YAML + SQL. Natively handles Reverse ETL, data quality checks, and sync operations powered by DuckDB, PostgreSQL, and SQLite.
     - **License**: Apache-2.0 | **Stack**: Go
     - **Best for**: Data engineers who value self-documenting, audit-proof sync specifications stored as plain text.
 
-12. **[drt (data reverse tool)](https://github.com/drt-hub/drt)** [![GitHub stars](https://img.shields.io/github/stars/drt-hub/drt?style=social&color=white)](https://github.com/drt-hub/drt/stargazers) 🎯
+12. **[drt (data reverse tool)](https://github.com/drt-hub/drt)** [![GitHub_Stars](https://img.shields.io/github/stars/drt-hub/drt?style=social&color=white)](https://github.com/drt-hub/drt/stargazers) 🎯
     - **Overview**: CLI-first, code-native Reverse ETL tool acting as the activation counterpart to dbt and dlt. Defines syncs in declarative YAML with `drt plan` dry-runs and HubSpot / REST API targets.
     - **License**: MIT | **Stack**: Python
     - **Best for**: dbt-centric data teams wanting Git-versioned reverse ETL without per-row SaaS charges.
 
-13. **[FlowForge](https://github.com/DeveloperSarim/FlowForge)** [![GitHub stars](https://img.shields.io/github/stars/DeveloperSarim/FlowForge)](https://github.com/DeveloperSarim/FlowForge/stargazers) 🔧
+13. **[FlowForge](https://github.com/DeveloperSarim/FlowForge)** [![GitHub_Stars](https://img.shields.io/github/stars/DeveloperSarim/FlowForge)](https://github.com/DeveloperSarim/FlowForge/stargazers) 🔧
     - **Overview**: Lightweight visual automation platform built for budget and shared hosting environments with 1,600+ app connectors and single-cron job orchestration.
     - **License**: AGPL-3.0 | **Stack**: PHP, MySQL
     - **Best for**: SMBs and agencies running on cPanel/VPS looking for self-hosted Zapier-style automation without Node.js maintenance.
 
-14. **[CRMSYNC](https://github.com/cognis-digital/crmsync)** [![GitHub stars](https://img.shields.io/github/stars/cognis-digital/crmsync)](https://github.com/cognis-digital/crmsync/stargazers) 🔄
+14. **[CRMSYNC](https://github.com/cognis-digital/crmsync)** [![GitHub_Stars](https://img.shields.io/github/stars/cognis-digital/crmsync)](https://github.com/cognis-digital/crmsync/stargazers) 🔄
     - **Overview**: Idempotent bidirectional CRM synchronization CLI between local SQLite files and HubSpot, Pipedrive, or Salesforce. Uses `diff` and `apply` commands to enforce schema consistency inside CI/CD gates.
     - **License**: MIT | **Stack**: Python
     - **Best for**: CI/CD-enforced CRM consistency and drift detection without expensive iPaaS contracts.
 
-15. **[PyReverseETL](https://github.com/Mullassery/PyReverseETL)** [![GitHub stars](https://img.shields.io/github/stars/Mullassery/PyReverseETL)](https://github.com/Mullassery/PyReverseETL/stargazers) 🦀
+15. **[PyReverseETL](https://github.com/Mullassery/PyReverseETL)** [![GitHub_Stars](https://img.shields.io/github/stars/Mullassery/PyReverseETL)](https://github.com/Mullassery/PyReverseETL/stargazers) 🦀
     - **Overview**: Reverse ETL runtime engine pairing a high-throughput compiled Rust core with a developer-friendly Python API. Includes built-in PII masking, lineage tracking, and mock-verified CRM adapters.
     - **License**: MIT | **Stack**: Rust (PyO3), Python
     - **Best for**: Data engineers needing compliant warehouse-to-CRM activations with built-in PII data governance.
@@ -171,7 +171,7 @@ We welcome contributions from the data engineering and integration community!
 2. 🌿 **Create a new branch** (`git checkout -b feature/add-new-sync-tool`).
 3. 📝 **Add/edit entries** in `README.md` following the established format:
    - Name and official link
-   - Real-time GitHub star badge (for open-source tools) linking to the stargazers page
+   - Real-time GitHub Stars_Badge (for open-source tools) linking to the stargazers page
    - Concise 1–2 sentence description, license, stack, and ideal use case
    - Exact pricing and free tier limits (for SaaS tools)
 4. 🚀 **Submit a Pull Request** with a brief summary of the project added.
